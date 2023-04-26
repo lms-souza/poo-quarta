@@ -1,0 +1,15 @@
+C:\Users\Not\Downloads\Semi\bin\Debug\net7.0\Semi.exe
+C:\Users\Not\Downloads\Semi\bin\Debug\net7.0\Semi.deps.json
+C:\Users\Not\Downloads\Semi\bin\Debug\net7.0\Semi.runtimeconfig.json
+C:\Users\Not\Downloads\Semi\bin\Debug\net7.0\Semi.dll
+C:\Users\Not\Downloads\Semi\bin\Debug\net7.0\Semi.pdb
+C:\Users\Not\Downloads\Semi\obj\Debug\net7.0\Semi.csproj.AssemblyReference.cache
+C:\Users\Not\Downloads\Semi\obj\Debug\net7.0\Semi.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Not\Downloads\Semi\obj\Debug\net7.0\Semi.AssemblyInfoInputs.cache
+C:\Users\Not\Downloads\Semi\obj\Debug\net7.0\Semi.AssemblyInfo.cs
+C:\Users\Not\Downloads\Semi\obj\Debug\net7.0\Semi.csproj.CoreCompileInputs.cache
+C:\Users\Not\Downloads\Semi\obj\Debug\net7.0\Semi.dll
+C:\Users\Not\Downloads\Semi\obj\Debug\net7.0\refint\Semi.dll
+C:\Users\Not\Downloads\Semi\obj\Debug\net7.0\Semi.pdb
+C:\Users\Not\Downloads\Semi\obj\Debug\net7.0\Semi.genruntimeconfig.cache
+C:\Users\Not\Downloads\Semi\obj\Debug\net7.0\ref\Semi.dll
