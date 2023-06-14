@@ -1,0 +1,15 @@
+C:\Users\leona\OneDrive\Área de Trabalho\Ulbra Semestre 3\ap1poo\ap1poo\bin\Debug\net7.0\ap1poo.exe
+C:\Users\leona\OneDrive\Área de Trabalho\Ulbra Semestre 3\ap1poo\ap1poo\bin\Debug\net7.0\ap1poo.deps.json
+C:\Users\leona\OneDrive\Área de Trabalho\Ulbra Semestre 3\ap1poo\ap1poo\bin\Debug\net7.0\ap1poo.runtimeconfig.json
+C:\Users\leona\OneDrive\Área de Trabalho\Ulbra Semestre 3\ap1poo\ap1poo\bin\Debug\net7.0\ap1poo.dll
+C:\Users\leona\OneDrive\Área de Trabalho\Ulbra Semestre 3\ap1poo\ap1poo\bin\Debug\net7.0\ap1poo.pdb
+C:\Users\leona\OneDrive\Área de Trabalho\Ulbra Semestre 3\ap1poo\ap1poo\obj\Debug\net7.0\ap1poo.csproj.AssemblyReference.cache
+C:\Users\leona\OneDrive\Área de Trabalho\Ulbra Semestre 3\ap1poo\ap1poo\obj\Debug\net7.0\ap1poo.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\leona\OneDrive\Área de Trabalho\Ulbra Semestre 3\ap1poo\ap1poo\obj\Debug\net7.0\ap1poo.AssemblyInfoInputs.cache
+C:\Users\leona\OneDrive\Área de Trabalho\Ulbra Semestre 3\ap1poo\ap1poo\obj\Debug\net7.0\ap1poo.AssemblyInfo.cs
+C:\Users\leona\OneDrive\Área de Trabalho\Ulbra Semestre 3\ap1poo\ap1poo\obj\Debug\net7.0\ap1poo.csproj.CoreCompileInputs.cache
+C:\Users\leona\OneDrive\Área de Trabalho\Ulbra Semestre 3\ap1poo\ap1poo\obj\Debug\net7.0\ap1poo.dll
+C:\Users\leona\OneDrive\Área de Trabalho\Ulbra Semestre 3\ap1poo\ap1poo\obj\Debug\net7.0\refint\ap1poo.dll
+C:\Users\leona\OneDrive\Área de Trabalho\Ulbra Semestre 3\ap1poo\ap1poo\obj\Debug\net7.0\ap1poo.pdb
+C:\Users\leona\OneDrive\Área de Trabalho\Ulbra Semestre 3\ap1poo\ap1poo\obj\Debug\net7.0\ap1poo.genruntimeconfig.cache
+C:\Users\leona\OneDrive\Área de Trabalho\Ulbra Semestre 3\ap1poo\ap1poo\obj\Debug\net7.0\ref\ap1poo.dll

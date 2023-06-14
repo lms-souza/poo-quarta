@@ -1,22 +1,38 @@
-﻿﻿// See https://aka.ms/new-console-template for more information
-using System;
-using System.Linq;
+﻿﻿// // Create
+using Data.Repositories;
 using Data;
+using Domain.Entities;
 using Domain;
 
-using var db = new DataContext();
+var db = new DataContext();
 
-// Note: This sample requires the database to be created before running.
-Console.WriteLine($"Database path: {db.DbPath}.");
+var personRepository = new PersonRepository(db);
 
-// Create
-Console.WriteLine("Inserting a new person");
-var person = new Person { Id = 1, Name = "João da Silva" };
-db.Add(person);
-db.SaveChanges();
+// Console.WriteLine("Inserting a new person using repository person");
+// var person = new Person() { Id = 4, Name = "Vanessa", phoneNumber ="55987987987987" };
+// personRepository.Save(person);
 
+listPeople();
 
-// Delete
-// Console.WriteLine("Delete the blog");
-// db.Remove(person);
-// db.SaveChanges();
+var personFind = personRepository.GetById(3);
+
+Console.WriteLine($"\nId: {personFind.Id} | Nome: {personFind.Name} | Fone: {personFind.PhoneNumber}");
+
+// Console.WriteLine("Inserting a new product");
+// var prod = new Product(){Id=100, Description="Garrafa alcool gel"};
+
+Console.WriteLine("delete person id 3...");
+personRepository.Delete(3);
+
+listPeople();
+
+void listPeople()
+{
+    Console.WriteLine("listing people");
+    var people = personRepository.GetAll();
+
+    foreach (var item in people)
+    {
+        Console.WriteLine($"Id: {item.Id} | Nome: {item.Name} | Fone: {item.PhoneNumber}");
+    }
+}

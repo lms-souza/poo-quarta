@@ -1,24 +1,24 @@
-using Domain;
+
+using Domain.Entities;
 using Microsoft.EntityFrameworkCore;
 
 namespace Data
 {
-    public class DataContext : DbContext
+   public class DataContext : DbContext
     {
-        public DbSet<Person> Persons { get; set; }
-
-        public string DbPath { get; }
+       public string DbPath { get; }
 
         public DataContext()
         {
-            var folder = Environment.SpecialFolder.LocalApplicationData;
-            var path = Environment.GetFolderPath(folder);
-            DbPath = System.IO.Path.Join(path, "aula12_ef_teste.db");
+            string path = Directory.GetCurrentDirectory();
+            DbPath = System.IO.Path.Join(path, "TestEFQuarta.db");
+            
         }
-
-        // The following configures EF to create a Sqlite database file in the
-        // special "local" folder for your platform.
         protected override void OnConfiguring(DbContextOptionsBuilder options)
             => options.UseSqlite($"Data Source={DbPath}");
+
+        public DbSet<Person> ?People { get; set; }
+        public DbSet<Product> ?Products { get; set; }
+
     }
 }
